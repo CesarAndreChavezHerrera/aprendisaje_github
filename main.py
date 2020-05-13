@@ -1,4 +1,4 @@
-#test de git con archivo generico de python
+#test de git con archivo generico de python 2.0
 
 print("calculadora 5000")
 print("bienvenido a la calculadora ")
