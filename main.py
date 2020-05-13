@@ -4,3 +4,8 @@
 print("bienvenido a la calculadora ")
 
 opcion = input("ingrese un valor")
+
+def suma():
+
+
+    
