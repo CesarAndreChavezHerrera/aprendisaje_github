@@ -12,6 +12,10 @@ numero_uno = input
 print("ingrese el segundo valor")
 numero_dos = input
 
+if opcion == "1":
+    suma(numero_uno,numero_dos)
+ 
+
 def suma(a , b ):
     r = a +b
     print("rel resultado es de:)
