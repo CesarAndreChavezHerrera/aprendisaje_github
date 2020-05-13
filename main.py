@@ -25,7 +25,7 @@ def resta(a , b):
 
     r = int(a) - int(b)
     print("el resultado es de:")
-    print r
+    print (r)
 
 def multiplicacion(a,b):
 
@@ -35,8 +35,10 @@ def multiplicacion(a,b):
 
 
 def dividir(a,b):
-     r = int(a) / int(b)
-    print("el resultado es de ")
+    r = int(a) / int(b)
+    
+    print("el resultado es de")
+    
     print(r)
 
 
@@ -57,3 +59,4 @@ elif opcion == "4":
     
 else:
     print("opcion no valida ")
+    pass
