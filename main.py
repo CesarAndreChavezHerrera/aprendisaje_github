@@ -26,9 +26,34 @@ def resta(a , b):
     r = int(a) - int(b)
     print("el resultado es de:")
     print r
+
+def multiplicacion(a,b):
+
+    r = int(a) * int(b)
+    print("el resultado es de ")
+    print(r)
+
+
+def dividir(a,b):
+     r = int(a) / int(b)
+    print("el resultado es de ")
+    print(r)
+
+
 if opcion == "1":
     suma(numero_uno,numero_dos)
 
 elif opcion == "2":
 
     resta(numero_uno,numero_dos)
+
+elif opcion == "3":
+
+    multiplicacion(numero_uno,numero_dos)
+    
+elif opcion == "4":
+
+    dividir(numero_uno,numero_dos)
+    
+else:
+    print("opcion no valida ")
