@@ -21,5 +21,14 @@ def suma(a , b ):
     print(r)
     pass
 
+def resta(a , b):
+
+    r = int(a) - int(b)
+    print("el resultado es de:")
+    print r
 if opcion == "1":
     suma(numero_uno,numero_dos)
+
+elif opcion == "2":
+
+    resta(numero_uno,numero_dos)
