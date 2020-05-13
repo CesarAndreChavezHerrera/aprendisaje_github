@@ -2,5 +2,6 @@
 
 
 print("bienvenido a la calculadora ")
-
-opcion = input("ingrese un valor")
+print("ingrese la operacion que quiere realizar")
+print("[1]suma, [2]resta,[3]multiplicacion, [4]divicion")
+opcion = input()
